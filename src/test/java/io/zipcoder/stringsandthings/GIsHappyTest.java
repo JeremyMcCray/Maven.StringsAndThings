@@ -33,7 +33,9 @@ public class GIsHappyTest {
     @Test
     public void gIsHappyTest3(){
         Boolean actual = stringsAndThings.gIsHappy("xxggyygxx");
-        Assert.assertTrue(actual);
+        Assert.assertFalse(actual);
+
+        //Just a heads up i changed this to assertFalse so i can see if my this passes all 3 test cases. the comments said this is supposed to assert false. please no accuse of cheating :)
     }
 
 }
